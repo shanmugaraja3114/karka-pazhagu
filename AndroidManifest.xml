@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.educate4">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/karkapazhagu"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/karkapazhagu_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Bba"></activity>
+        <activity android:name=".Bcom" />
+        <activity android:name=".Ca" />
+        <activity android:name=".Bl" />
+        <activity android:name=".Mbbs" />
+        <activity android:name=".Physiotherapy" />
+        <activity android:name=".Food" />
+        <activity android:name=".Chemistry" />
+        <activity android:name=".Aero" />
+        <activity android:name=".Metallurgical" />
+        <activity android:name=".Mining" />
+        <activity android:name=".Biomedical" />
+        <activity android:name=".Civil" />
+        <activity android:name=".Chem" />
+        <activity android:name=".Ae" />
+        <activity android:name=".Eie" />
+        <activity android:name=".Mech" />
+        <activity android:name=".Eee" />
+        <activity android:name=".It" />
+        <activity android:name=".Ece" />
+        <activity android:name=".Cse" />
+        <activity android:name=".Icse_12" />
+        <activity android:name=".Icse_11" />
+        <activity android:name=".Icse_10" />
+        <activity android:name=".Icse_9" />
+        <activity android:name=".Icse_8" />
+        <activity android:name=".Icse_7" />
+        <activity android:name=".Icse_6" />
+        <activity android:name=".Icse_5" />
+        <activity android:name=".Icse_4" />
+        <activity android:name=".Icse_3" />
+        <activity android:name=".Icse_2" />
+        <activity android:name=".Icse_1" />
+        <activity android:name=".Cbse_12" />
+        <activity android:name=".Cbse_11" />
+        <activity android:name=".Cbse_10" />
+        <activity android:name=".Cbse_9" />
+        <activity android:name=".Cbse_8" />
+        <activity android:name=".Cbse_7" />
+        <activity android:name=".Cbse_6" />
+        <activity android:name=".Cbse_5" />
+        <activity android:name=".Cbse_4" />
+        <activity android:name=".Cbse_3" />
+        <activity android:name=".Cbse_2" />
+        <activity android:name=".Cbse_1" />
+        <activity android:name=".StateBoard_12" />
+        <activity android:name=".StateBoard_11" />
+        <activity android:name=".StateBoard_10" />
+        <activity android:name=".StateBoard_9" />
+        <activity android:name=".StateBoard_8" />
+        <activity android:name=".StateBoard_7" />
+        <activity android:name=".StateBoard_6" />
+        <activity android:name=".StateBoard_5" />
+        <activity android:name=".StateBoard_4" />
+        <activity android:name=".StateBoard_3" />
+        <activity android:name=".StateBoard_2" />
+        <activity android:name=".Stateboard_1" />
+        <activity android:name=".Bsc" />
+        <activity android:name=".Engg" />
+        <activity android:name=".Icse" />
+        <activity android:name=".StateBoard" />
+        <activity android:name=".Cbse" />
+        <activity android:name=".popup_Activity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="Educate4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Register" />
+    </application>
+
+</manifest>
